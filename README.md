@@ -310,4 +310,4 @@ Possible additions:
 
 # License
 
-Personal homelab configuration.
+Apache-2.0 license
