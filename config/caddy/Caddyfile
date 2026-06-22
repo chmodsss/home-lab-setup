@@ -1,0 +1,15 @@
+http://portainer.home.arpa {
+    reverse_proxy portainer:9000
+}
+http://kuma.home.arpa {
+    reverse_proxy kuma:3001
+}
+http://jellyfin.home.arpa {
+    reverse_proxy jellyfin:8096
+}
+http://adguard.home.arpa {
+    reverse_proxy adguard:80
+}
+http://homer.home.arpa {
+    reverse_proxy homer:8080
+}

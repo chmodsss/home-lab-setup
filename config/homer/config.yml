@@ -1,0 +1,51 @@
+title: "Siva's Homelab"
+
+subtitle: "Home Dashboard"
+
+logo: "logo.png"
+
+header: true
+
+footer: false
+
+theme: default
+
+columns: "3"
+
+connectivityCheck: true
+
+services:
+
+  - name: "Management"
+    icon: "fas fa-server"
+    items:
+
+      - name: "Portainer"
+        icon: "fas fa-dharmachakra"
+        url: "http://portainer.home.arpa"
+        target: "_blank"
+
+      - name: "Uptime Kuma"
+        icon: "fas fa-heartbeat"
+        url: "http://kuma.home.arpa"
+        target: "_blank"
+
+
+  - name: "Media"
+    icon: "fas fa-photo-video"
+    items:
+
+      - name: "Jellyfin"
+        icon: "fas fa-play-circle"
+        url: "http://jellyfin.home.arpa"
+        target: "_blank"
+
+
+  - name: "Network"
+    icon: "fas fa-network-wired"
+    items:
+
+      - name: "AdGuard Home"
+        icon: "fas fa-shield-alt"
+        url: "http://adguard.home.arpa"
+        target: "_blank"
